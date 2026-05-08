@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DiegoFA\\source\\repos\\GestionStockVentasBD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F983DD2-F35C-48B8-B119-6DC982CE02FB}|GestionStockVentasBD\\GestionStockVentasBD.csproj|c:\\users\\diegofa\\source\\repos\\gestionstockventasbd\\gestionstockventasbd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F983DD2-F35C-48B8-B119-6DC982CE02FB}|GestionStockVentasBD\\GestionStockVentasBD.csproj|solutionrelative:gestionstockventasbd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F983DD2-F35C-48B8-B119-6DC982CE02FB}|GestionStockVentasBD\\GestionStockVentasBD.csproj|c:\\users\\diegofa\\source\\repos\\gestionstockventasbd\\gestionstockventasbd\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F983DD2-F35C-48B8-B119-6DC982CE02FB}|GestionStockVentasBD\\GestionStockVentasBD.csproj|solutionrelative:gestionstockventasbd\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F983DD2-F35C-48B8-B119-6DC982CE02FB}|GestionStockVentasBD\\GestionStockVentasBD.csproj|c:\\users\\diegofa\\source\\repos\\gestionstockventasbd\\gestionstockventasbd\\sucursalrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F983DD2-F35C-48B8-B119-6DC982CE02FB}|GestionStockVentasBD\\GestionStockVentasBD.csproj|solutionrelative:gestionstockventasbd\\sucursalrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F983DD2-F35C-48B8-B119-6DC982CE02FB}|GestionStockVentasBD\\GestionStockVentasBD.csproj|c:\\users\\diegofa\\source\\repos\\gestionstockventasbd\\gestionstockventasbd\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F983DD2-F35C-48B8-B119-6DC982CE02FB}|GestionStockVentasBD\\GestionStockVentasBD.csproj|solutionrelative:gestionstockventasbd\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SucursalRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\DiegoFA\\source\\repos\\GestionStockVentasBD\\GestionStockVentasBD\\SucursalRepositorio.cs",
+              "RelativeDocumentMoniker": "GestionStockVentasBD\\SucursalRepositorio.cs",
+              "ToolTip": "C:\\Users\\DiegoFA\\source\\repos\\GestionStockVentasBD\\GestionStockVentasBD\\SucursalRepositorio.cs",
+              "RelativeToolTip": "GestionStockVentasBD\\SucursalRepositorio.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T01:03:55.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sucursal.cs",
+              "DocumentMoniker": "C:\\Users\\DiegoFA\\source\\repos\\GestionStockVentasBD\\GestionStockVentasBD\\Sucursal.cs",
+              "RelativeDocumentMoniker": "GestionStockVentasBD\\Sucursal.cs",
+              "ToolTip": "C:\\Users\\DiegoFA\\source\\repos\\GestionStockVentasBD\\GestionStockVentasBD\\Sucursal.cs",
+              "RelativeToolTip": "GestionStockVentasBD\\Sucursal.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T01:03:27.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\DiegoFA\\source\\repos\\GestionStockVentasBD\\GestionStockVentasBD\\Conexion.cs",
+              "RelativeDocumentMoniker": "GestionStockVentasBD\\Conexion.cs",
+              "ToolTip": "C:\\Users\\DiegoFA\\source\\repos\\GestionStockVentasBD\\GestionStockVentasBD\\Conexion.cs",
+              "RelativeToolTip": "GestionStockVentasBD\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T00:46:53.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DiegoFA\\source\\repos\\GestionStockVentasBD\\GestionStockVentasBD\\Program.cs",
+              "RelativeDocumentMoniker": "GestionStockVentasBD\\Program.cs",
+              "ToolTip": "C:\\Users\\DiegoFA\\source\\repos\\GestionStockVentasBD\\GestionStockVentasBD\\Program.cs",
+              "RelativeToolTip": "GestionStockVentasBD\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T23:45:14.476Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
