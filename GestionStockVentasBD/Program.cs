@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace GestionStockVentasBD
 {
@@ -7,14 +6,23 @@ namespace GestionStockVentasBD
     {
         static void Main(string[] args)
         {
-            SucursalRepositorio repo = new SucursalRepositorio();
-            List<Sucursal> sucursales = repo.ObtenerSucursales();
-            Console.WriteLine("lista de Sucursales");
-            Console.WriteLine("********************");
-            foreach (Sucursal sucursal in sucursales)
+            int contador = 0;
+            bool bandera = true;
+            Console.WriteLine("conteo");
+            Console.WriteLine("*********");
+
+            Console.WriteLine("");
+            while (bandera) 
             {
-                Console.WriteLine(sucursal.IdSucursal + " - " + sucursal.Nombre);
+                contador++;
+                Console.WriteLine(contador);
+                if (contador > 15000)
+                {
+                    bandera = false;
+                }
             }
+            Console.WriteLine("el conteo finalizo ........");
+
             Console.ReadKey();
         }
     }
