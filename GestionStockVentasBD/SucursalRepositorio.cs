@@ -10,6 +10,8 @@ namespace GestionStockVentasBD
 
         public List<Sucursal> ObtenerSucursales()
         {
+            // Este repositorio se encarga solo de traer sucursales desde MySQL.
+            // Program.cs lo usa para mostrar opciones al usuario.
             List<Sucursal> sucursales = new List<Sucursal>();
 
             using (MySqlConnection con = conexion.ObtenerConexion())
@@ -31,6 +33,8 @@ namespace GestionStockVentasBD
                     sucursal.Nombre = reader["Nombre"].ToString();
                     sucursales.Add(sucursal);
                 }
+
+                reader.Close();
             }
 
             return sucursales;

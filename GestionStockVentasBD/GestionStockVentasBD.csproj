@@ -102,9 +102,11 @@
     <Compile Include="Sucursal.cs" />
     <Compile Include="SucursalRepositorio.cs" />
     <Compile Include="Televisor.cs" />
+    <Compile Include="VentaRepositorio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ElectrodomesticosDB.sql" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
