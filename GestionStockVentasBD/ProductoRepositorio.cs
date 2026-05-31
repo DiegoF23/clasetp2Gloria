@@ -211,6 +211,11 @@ namespace GestionStockVentasBD
 
                 try
                 {
+                    if (ExisteCodigo(con, transaccion, producto.Codigo))
+                    {
+                        throw new Exception("Ya existe un producto con ese codigo.");
+                    }
+                   
                     string tipoProducto = ObtenerTipoProducto(producto);
 
                     string sqlProducto = @"
@@ -432,5 +437,20 @@ namespace GestionStockVentasBD
                 }
             }
         }
+
+        private bool ExisteCodigo(MySqlConnection con, MySqlTransaction transaccion, int codigo)
+        {
+            string sql = "SELECT COUNT(*) FROM Producto WHERE Codigo = @codigo";
+
+
+            MySqlCommand comando = new MySqlCommand(sql, con, transaccion);
+            comando.Parameters.AddWithValue("@codigo", codigo);
+
+            int cantidad = Convert.ToInt32(comando.ExecuteScalar());
+
+            return cantidad > 0;
+        }
+
+
     }
 }
